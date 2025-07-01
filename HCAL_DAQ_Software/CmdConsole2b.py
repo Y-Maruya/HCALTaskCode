@@ -961,7 +961,7 @@ def cfgHBU(linkNum = 1, fixInputDAC = 0, HBUNum = HBUOrderList ,outputMod = 'HL'
         thrOfChips = thrOfChips + str(thrListSelected[(num-1)*9+j])
     print(thrOfChips)
     if(forceEn == 0):
-        subPath = outputMod + '_thrOpt_wjx4_' + 'HVOptValidModSelectThr200/'
+        subPath = outputMod + '_thrOpt3_' + 'HVOptValidModSelectThr1023/'
     else:
         subPath = outputMod + 'latest_ForceMod_delay150/'
     if not os.path.exists(cfgPath + subPath):

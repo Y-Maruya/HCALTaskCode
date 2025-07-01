@@ -94,118 +94,82 @@ chipIDList = ['10000000','11000000','01000000','01100000','11100000','10100000',
 
 thrList = []
 
-#USTC threshold
-#chip1 chip2 chip3 chip4 chip5 chip6
-singleEBUChipThrList = [230,230,230,230,230,230,230,230,230]  #HBU1
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]
+#USTC threshold - Based on HL_thrOpt3_HVOptValidModSelectThr1023_delay54 directory files
+#chip1 chip2 chip3 chip4 chip5 chip6 chip7 chip8 chip9
+singleEBUChipThrList = [270,270,270,270,270,270,270,270,270]  #HBU1
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,250,230,240,250,250,250,250,230] #HBU2
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [270,270,270,270,270,270,270,270,270] #HBU2
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU3
-singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [250,255,250,250,250,250,250,250,250] #HBU3
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU4
-singleEBUChipThrList = [230,230,230,230,230,230,230,230,230] #
+singleEBUChipThrList = [225,230,225,225,225,225,225,225,225] #HBU4
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,250,250,240,260,250,240,250,255] #HBU5
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] 0
+singleEBUChipThrList = [245,250,245,235,255,245,235,245,250] #HBU5
 thrList.extend(singleEBUChipThrList)
 singleEBUChipThrList = [255,250,250,255,245,250,250,250,250] #HBU6
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #
-singleEBUChipThrList = [225,225,225,225,230,225,225,225,225] #  HBU7
+singleEBUChipThrList = [270,265,270,270,270,270,270,270,270] #HBU7
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU8
-singleEBUChipThrList = [255,260,260,260,270,260,250,260,260] #
+singleEBUChipThrList = [255,255,260,260,270,260,250,260,260] #HBU8
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,275,275,235,260,235,240,235,240]  #HBU9
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [245,265,270,230,255,230,235,230,235]  #HBU9
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [230,260,260,255,235,245,230,230,230] #HBU10
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [230,250,260,255,235,245,230,230,230] #HBU10
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU11
-singleEBUChipThrList = [265,290,300,260,260,270,260,260,260] #
+singleEBUChipThrList = [265,280,300,260,260,270,260,260,260] #HBU11 (from link11)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU4
-singleEBUChipThrList = [250,250,250,240,260,240,250,250,240] #
+singleEBUChipThrList = [240,230,240,230,250,230,240,240,230] #HBU12 (from link12)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [240,240,240,240,250,240,240,240,230] #HBU13
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [240,240,240,240,250,240,240,240,230] #HBU13 (from link13)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,250,240,240,260,250,240,240,240] #HBU14
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [230,235,220,220,240,230,220,220,220] #HBU14 (from link14)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU15
-singleEBUChipThrList = [250,260,250,250,260,250,250,250,250] #
+singleEBUChipThrList = [250,260,250,250,260,250,250,250,250] #HBU15 (from link15)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU16
-singleEBUChipThrList = [250,250,250,250,260,250,240,240,240] #
+singleEBUChipThrList = [250,245,250,250,260,250,240,240,240] #HBU16 (from link16)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [240,250,240,240,260,250,250,240,240] #HBU17
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] 
+singleEBUChipThrList = [230,240,230,230,250,240,240,230,230] #HBU17 (from link17)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,250,250,250,260,250,240,250,250] #HBU18
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [235,240,235,235,245,235,225,235,235] #HBU18 (from link18)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU19
-singleEBUChipThrList = [250,250,240,250,260,250,250,240,250] #
+singleEBUChipThrList = [230,235,220,230,240,230,230,220,230] #HBU19 (from link19)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU20
-singleEBUChipThrList = [250,250,240,250,260,250,250,250,240] #
+singleEBUChipThrList = [235,240,225,235,245,235,235,235,225] #HBU20 (from link20)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [240,240,250,250,250,250,250,250,240] #HBU21
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [235,240,245,245,245,245,245,245,235] #HBU21 (from link21)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [240,250,240,250,250,250,240,250,240] #HBU22
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [225,235,225,235,235,235,225,235,225] #HBU22 (from link22)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU23
-singleEBUChipThrList = [235,250,240,250,260,250,250,240,240] #
+singleEBUChipThrList = [225,240,230,240,250,240,240,230,230] #HBU23 (from link23)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU24
-singleEBUChipThrList = [240,240,240,240,250,240,240,250,240] #
+singleEBUChipThrList = [235,235,235,235,245,235,235,245,235] #HBU24 (from link24)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,250,250,250,255,250,250,250,245] #HBU25
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [245,240,245,245,250,245,245,245,240] #HBU25 (from link25)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [240,240,240,250,260,250,240,260,240] #HBU26
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [235,235,235,245,255,245,235,255,235] #HBU26 (from link26)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU27
-singleEBUChipThrList = [250,250,250,250,260,250,240,240,240] #
+singleEBUChipThrList = [240,240,240,240,250,240,230,230,230] #HBU27 (from link27)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU28
-singleEBUChipThrList = [250,250,250,250,250,250,240,250,240] #
+singleEBUChipThrList = [240,240,240,240,240,240,230,240,230] #HBU28 (from link28)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [260,260,320,260,270,260,260,260,260] #HBU29
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [255,255,315,255,265,255,255,255,255] #HBU29 (from link29)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [260,340,300,260,260,240,240,240,240] #HBU30
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [250,320,290,250,250,230,230,230,230] #HBU30 (from link30)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU31
-singleEBUChipThrList = [240,310,290,225,235,230,230,230,240] #
+singleEBUChipThrList = [245,305,295,230,240,235,235,235,245] #HBU31 (from link31)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU32
-singleEBUChipThrList = [240,250,240,250,250,240,250,250,240] #
+singleEBUChipThrList = [230,235,230,240,240,230,240,240,230] #HBU32 (from link32)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [230,230,230,230,235,230,230,230,230] #HBU33
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
+singleEBUChipThrList = [230,220,230,230,235,230,230,230,230] #HBU33 (from link33)
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [250,260,250,250,260,240,250,250,240] #HBU34
-#singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
+singleEBUChipThrList = [240,250,240,240,250,230,240,240,230] #HBU34 (from link34)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU35
-singleEBUChipThrList = [250,250,240,250,250,250,250,250,240] #
+singleEBUChipThrList = [245,245,235,245,245,245,245,245,235] #HBU35 (from link35)
 thrList.extend(singleEBUChipThrList)
-#singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU36
-singleEBUChipThrList = [260,250,250,250,250,240,260,260,250] #
+singleEBUChipThrList = [245,240,235,235,235,225,245,245,235] #HBU36 (from link36)
 thrList.extend(singleEBUChipThrList)
 regConfigList = []
-singleEBUChipThrList = [230,240,230,240,240,240,230,240,230] #HBU37
+singleEBUChipThrList = [225,235,225,235,235,235,225,235,225] #HBU37
 #singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
 thrList.extend(singleEBUChipThrList)
 singleEBUChipThrList = [275,280,275,275,320,275,275,275,275] #HBU38
@@ -215,13 +179,13 @@ thrList.extend(singleEBUChipThrList)
 singleEBUChipThrList = [270,265,265,265,250,250,235,275,275] #
 thrList.extend(singleEBUChipThrList)
 #singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU40
-singleEBUChipThrList =  [270,265,265,265,250,250,235,275,275] #
+singleEBUChipThrList = [280,275,275,275,260,260,245,285,285] #HBU40 (from link39)
 thrList.extend(singleEBUChipThrList)
 regConfigList = []
 singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #HBU41
 #singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [220,220,220,210,215,215,215,215,215] #HBU42
+singleEBUChipThrList = [230,230,230,220,225,225,225,225,225] #HBU42 (from link40)
 #singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
 thrList.extend(singleEBUChipThrList)
 #singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU43
@@ -286,8 +250,9 @@ regConfigList.append('0')
 regConfigList.append('1')
 regConfigList.append('0')
 regConfigList.append('3FF') # DAC1 trigger
-regConfigList.append('0111110100') # gain trigger
-#regConfigList.append('0011001000') # gain trigger
+# regConfigList.append('0111110100') # gain trigger
+# regConfigList.append('0011001000') # gain trigger
+regConfigList.append('1111111111')
 regConfigList.append('1')
 regConfigList.append('1')
 regConfigList.append('0')
