@@ -196,6 +196,16 @@ singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
 thrList.extend(singleEBUChipThrList)
 
 
+thr_offset = 0 
+for i in range(len(thrList)):
+    thrList[i] = thrList[i] + thr_offset #offset for threshold
+    if thrList[i] < 0:
+        thrList[i] = 0
+    elif thrList[i] > 1023:
+        thrList[i] = 1023
+
+
+
 
 
 

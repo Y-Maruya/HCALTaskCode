@@ -9,7 +9,7 @@ from Driver.setting_ustc_2b import FEC_name_list3,FEC_name_list2,FEC_name_list1,
 from time import sleep, localtime
 import time
 from cmdTools.cmdGen import generator, probeMod
-from configList import regConfigList,regList,chipIDList,HVList,HBUOrderList,thrList, DIFOrderList, HVParaList
+from configList import regConfigList,regList,chipIDList,HVList,HBUOrderList,thrList, DIFOrderList, HVParaList, thr_offset
 from configGen import fileHandle
 
 def felixShellDo(felixCmd,silence=1):
@@ -961,7 +961,7 @@ def cfgHBU(linkNum = 1, fixInputDAC = 0, HBUNum = HBUOrderList ,outputMod = 'HL'
         thrOfChips = thrOfChips + str(thrListSelected[(num-1)*9+j])
     print(thrOfChips)
     if(forceEn == 0):
-        subPath = outputMod + '_thrOpt3_' + 'HVOptValidModSelectThr1023/'
+        subPath = outputMod + '_thrOpt3_' + 'thOffset_'  +str(thr_offset) +'_HVOptValidModSelectThr1023/'
     else:
         subPath = outputMod + 'latest_ForceMod_delay150/'
     if not os.path.exists(cfgPath + subPath):
