@@ -172,7 +172,7 @@ regConfigList = []
 singleEBUChipThrList = [225,235,225,235,235,235,225,235,225] #HBU37
 #singleEBUChipThrList = [250,250,250,250,250,250,250,250,250]  #
 thrList.extend(singleEBUChipThrList)
-singleEBUChipThrList = [275,280,275,275,320,275,275,275,275] #HBU38
+singleEBUChipThrList = [265,260,265,265,310,265,265,265,265] #HBU38
 #singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
 thrList.extend(singleEBUChipThrList)
 #singleEBUChipThrList = [390,390,390,390,390,390,390,390,390] #HBU39
@@ -196,7 +196,7 @@ singleEBUChipThrList = [250,250,250,250,250,250,250,250,250] #
 thrList.extend(singleEBUChipThrList)
 
 
-thr_offset = 0 
+thr_offset = -10
 for i in range(len(thrList)):
     thrList[i] = thrList[i] + thr_offset #offset for threshold
     if thrList[i] < 0:
